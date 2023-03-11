@@ -1,0 +1,244 @@
+---
+- summary: |
+    Регистрация пользователя. 1.
+  status: pass
+
+- summary: |
+    Авторизации пользователя с существующими email и password. 2.
+  status: pass
+  
+- summary: |
+    Авторизация пользователя с незарегистрированным email и password. 3.
+  status: pass
+  
+- summary: |
+    Авторизация пользователя с неправильным паролем. 4.
+  status: pass
+  
+- summary: |
+    Авторизация пользователя без ввода email и password. 5
+  status: pass
+  
+- summary: |
+    Восстановление забытого пароля. 6.
+  status: fail
+  
+- summary: |
+    Авторизация пользователя по Discord. 7.
+  status: fail
+  
+- summary: |
+    Авторизация пользователя по GitHub. 8.
+  status: pass
+  
+- summary: |
+    Создание пользователя с Password менее 3 символов. 9. (нег.)
+  status: pass
+  
+- summary: |
+    Регистрация пользователя с неккоректным Email. 10. (нег.) 
+  status: pass
+  
+- summary: |
+    Регистрация пользователя с Nickname менее 3 символов. 11. (нег.)
+  status: fail
+
+- summary: |
+    Guide в Simple battle незарегистрированного пользователя. 12.
+  status: fail
+  
+- summary: |
+    Просмотр истории игры 13.
+  status: fail
+ 
+- summary: |
+    Проверка победы в игре. 14.
+  status: pass
+
+- summary: |
+    Проверка игрового поля. 15.
+  status: fail
+
+- summary: |
+    Рематч игры с ботом 16.
+  status: pass
+
+- summary: |
+    Проверка работы Vim. 17.
+  status: pass
+
+- summary: |
+    Закрытие только что созданной игры с другими пользователями. 18.
+  status: fail
+
+- summary: |
+    Перевод контента в игре. 19.
+  status: pass
+
+- summary: |
+    Проверка "emoji" в чате игры. 20.
+  status: fail
+
+- summary: |
+    Добровольное поражение. 21.
+  status: fail
+  
+- summary: |
+    Проверка чата игры. 22.
+  status: fail
+  
+- summary: |
+    Бездействие в игре. 23.
+  status: pass
+  
+- summary: |
+    Выход из приложения во время игры и возвращение в игру. 24.
+  status: pass
+  
+- summary: |
+    Отправка сообщений в чате раздела "Tournament". 25.
+  status: fail
+  
+- summary: |
+    Отправка сообщения в чате раздела "lobby". 26.
+  status: fail
+  
+- summary: |
+    Tooltip сообщение кнопки Invite. 27. 
+  status: fail
+  
+- summary: |
+    Отправка сообщений в окно обратной связи "Send feedback" в игре. 28.
+  status: fail
+  
+- summary: |
+    Создание игры через приглашение другу. 29.
+  status: pass
+
+- summary: |
+    Отклонение приглашения на игру. 30.
+  status: pass
+  
+- summary: |
+    Принятие приглашения от друга. 31. 
+  status: pass
+  
+- summary: |
+    Самостоятельная отмена приглашения. 32. 
+  status: fail
+  
+- summary: |
+    Профиль пользователя. 33.  
+  status: fail
+  
+- summary: |
+    Смена "Nickname". 34. 
+  status: pass
+
+- summary: |
+    Переключение вкладок пользовательского рейтинга. 35.
+  status: fail
+  
+- summary: |
+    Переключение влкдаок таблицы лидеров 36.
+  status: pass
+  
+- summary: |
+    Добавление в турнир. 37.
+  status: fail
+  
+- summary: |
+    Просмотр завершенных игр турнира. 38.
+  status: pass
+
+- summary: |
+    Турнир тип "team". 39.
+  status: fail
+  
+- summary: |
+    Удаление турнира. 40.
+  status: pass
+  
+- summary: |
+    Создание задания. 41.
+  status: pass
+
+- summary: |
+    Создание сборника заданий. 42.
+  status: pass
+  
+- summary: |
+    Редактирование созданного задания. 43
+  status: pass
+  
+- summary: |
+    Редактирование сборника заданий. 44.
+  status: pass
+  
+- summary: |
+    Смена "Nickname" на "Nickname" менее 3х символов. 45
+  status: pass
+  
+- summary: |
+    Смена "Nickname" на "Nickname" без символов. 46
+  status: pass
+  
+- summary: |
+    Создание задания с существующим. 47.
+  status: pass
+  
+- summary: |
+    Смена названия созданного задания на уже существующее. 48.
+  status: pass
+  
+- summary: |
+    Смена "Nickname" на используемый "Nickname". 49
+  status: fail
+  
+- summary: |
+    Создание сборника заданий с существующим названием. 50.
+  status: pass
+  
+- summary: |
+    Смена названия созданного сборника заданий на уже существующее. 51.
+  status: pass  
+  
+- summary: |
+    Турнир тип "stairway. 52.
+  status: fail
+  
+- summary: |
+    Турнир тип "individual". 53.
+  status: pass  
+  
+- summary: |
+    Создание турнира без названия. 54.
+  status: pass  
+  
+- summary: |
+    Проверка приватности турнира типа "token". 55.
+  status: fail  
+  
+- summary: |
+    Создание турнира прошедшей датой. 56.
+  status: fail
+  
+- summary: |
+    Создание турнира с уже имеющимся названием. 57.
+  status: fail
+  
+- summary: |
+    Одновременное участие в двух играх. 58.
+  status: pass
+  
+- summary: |
+    Одновременное участие в игре турнира и обычной игре. 59.
+  status: pass 
+
+- summary: |
+    Одновременное участие в игре турнира и принятие приглашения на игру. 60.
+  status: fail
+  
+- summary: |
+    Одновременное участие в обычной игре и игре турнира. 61.
+  status: fail
